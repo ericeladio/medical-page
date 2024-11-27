@@ -3,7 +3,7 @@ import * as React from "react";
 export default function WhyChooseUs() {
   return (
     <section
-      className="mt-36 w-full max-w-[1112px] max-md:mt-10 max-md:max-w-full"
+      className="mt-40 px-20 w-full max-w-[1112px] max-md:mt-10 max-md:max-w-full"
       aria-labelledby="why-choose-us"
     >
       <div className="flex gap-5 max-md:flex-col">

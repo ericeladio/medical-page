@@ -8,7 +8,7 @@ export default function Stats() {
     >
       <div className="flex flex-wrap gap-10">
         <div className="flex flex-col">
-          <div className="text-6xl font-bold max-md:text-4xl">24/7</div>
+          <div className="text-6xl font-bold max-md:text-4xl">24 / 7</div>
           <div className="self-center text-base">Online Support</div>
         </div>
         <div className="object-contain shrink-0 my-auto w-px aspect-[0.01] bg-white"></div>
