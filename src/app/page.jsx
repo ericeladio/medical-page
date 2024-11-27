@@ -13,7 +13,7 @@ import Footer from "../components/landingPage/Footer";
 
 export default function LandingPage() {
   return (
-    <div className="flex overflow-hidden flex-col pt-11 bg-white">
+    <div className="flex overflow-hidden flex-col  bg-white">
       <Header />
       <Hero />
       <Stats />

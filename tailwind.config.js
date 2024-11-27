@@ -10,6 +10,15 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#F4F4F4",
+        secondary: "#E1EEFF",
+        tertiary: "#F4F4F4",
+      },
+      backgroundImage: {
+        "img-doctor":"url('../../public/ellipse.png')",
+      },
+      backgroundPosition: {
+        "potion-doctor": "bottom right",
       },
     },
   },

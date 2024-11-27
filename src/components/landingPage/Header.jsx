@@ -3,7 +3,7 @@ import * as React from "react";
 export default function Header() {
   return (
     <nav
-      className="flex flex-col self-end w-full max-w-[1320px] max-md:max-w-full"
+      className="flex flex-col baseline items-center w-full max-w-[1320px] max-md:max-w-full bg-secondary pt-2"
       role="navigation"
       aria-label="Main navigation"
     >

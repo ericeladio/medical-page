@@ -2,23 +2,21 @@ import * as React from "react";
 
 export default function Hero() {
   return (
-    <section className="mt-36 max-md:mt-10 max-md:max-w-full" role="banner">
+    <section className="pt-10 max-md:mt-10 max-md:max-w-full bg-secondary" role="banner" >
       <div className="flex gap-5 max-md:flex-col">
-        <div className="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
-          <div className="flex z-10 flex-col w-full text-base text-black max-md:mr-0 max-md:max-w-full">
+        <div className="flex flex-col w-[58%] max-md:ml-0 max-md:w-full ml-10 mt-10">
+          <div className="flex z-10  grow-2 flex-col w-full text-base text-black max-md:mr-0 max-md:max-w-full">
             <h1 className="text-6xl font-medium max-md:mr-2.5 max-md:max-w-full max-md:text-4xl">
               <span className="font-bold text-slate-900">
                 Find & Search Your
               </span>
-              <br />
               <span className="font-bold text-blue-700">Favourite</span>{" "}
               <span className="font-bold text-slate-900">Doctor</span>
             </h1>
             <p className="mt-5 text-sky-950 w-[419px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
-              viverra amet faucibus.
+              We're committed to Your Health, Our Priority. From preventive care to advanced treatments
             </p>
-            <div className="flex flex-wrap gap-10 py-7 pr-20 pl-9 mt-20 w-full bg-white rounded-[50px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+            <div className="flex flex-wrap py-7 pl-9 my-10 w-full bg-white rounded-[50px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
               <div className="flex gap-3">
                 <img
                   loading="lazy"
@@ -46,11 +44,11 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
+        <div className=" relative flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full  bg-img-doctor bg-no-repeat bg-potion-doctor bg-[length:586px_270px] ">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/e0cadf51981de142cce1603b6da18844f13af45815bfbe137ac03397627e9dc2?placeholderIfAbsent=true&apiKey=db395f39bd3c4701b0287a0a79b559c3"
-            className="object-contain grow mt-28 w-full  aspect-[2] max-md:mt-10 max-md:max-w-full"
+            src="doctor.png"
+            className="  z-20 absolute  object-cover transform -translate-y-5 right-16 h-[600px]  aspect-[2] max-md:mt-10 max-md:max-w-full"
             alt="Hero illustration"
           />
         </div>

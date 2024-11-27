@@ -2,13 +2,13 @@ import * as React from "react";
 
 export default function Specialists() {
   return (
-    <section className="flex flex-col items-center px-20 pt-36 mt-2 w-full bg-sky-100 max-md:px-5 max-md:pt-24 max-md:max-w-full">
+    <section className="flex flex-col items-center pt-10  w-full  max-md:px-5 max-md:pt-24 max-md:max-w-full">
       <div className="flex z-10 flex-col items-start -mb-36 w-full max-w-[1200px] max-md:mb-2.5 max-md:max-w-full">
         <h2 className="text-5xl font-bold text-zinc-800 max-md:max-w-full max-md:text-4xl">
           Our Consulting Specialists
         </h2>
         <div className="self-stretch mt-10 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col">
+          <div className="flex gap-5 max-md:flex-col mb-10">
             {[
               { title: "Covid-19 Test", highlighted: false },
               { title: "Heart Lungs", highlighted: true },
